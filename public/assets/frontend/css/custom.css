@@ -1,0 +1,229 @@
+.wrapper-header{
+    min-height: 70px !important;
+}
+#header .nav-icon .nav-icon-item .text {
+    font-size: 13px !important;
+}
+#header .box-nav-ul .item-link {
+    font-size: 14px !important;
+}
+#header .header-bottom .box-right .phone {
+    font-size: 23px;
+    line-height: 25px;
+}
+#header .header-bottom .tf-list-categories .categories-title {
+    min-width: 206px;
+    font-size: 14px !important;
+}
+.pagination-new{
+    grid-column: 1 / -1;
+    width: 100%;
+}
+
+#price-max-value{
+    width: 89px !important;
+}
+.hover-img .img-style img {
+    width: 100%;
+    /* max-height: 107px; */
+}
+
+.ad-t-cart-btn{
+    justify-content: center;
+    border: 1px solid var(--line-2);
+    font-size: 12px;
+    line-height: 42px;
+    font-weight: 700;
+    background-color: var(--white);
+    padding: 0 10px;
+    border-radius: 999px;
+}
+.card-product-grid{
+    margin-bottom: 30px;
+    border-radius: 11px;
+    
+}
+.card-product-grid .product-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: stretch;
+}
+.card-product-grid .card-product-wrapper {
+    border-radius: 10px 10px 0px 0px;
+}
+.card-product .card-product-info {
+    padding: 10px;
+}
+.card-product-grid .card-product-wrapper img {
+    background-color: transparent;
+}
+.card-product-grid .card-product-wrapper .img-hover {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+}
+
+.card-product-grid .card-product-wrapper img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: opacity 0.5s ease, transform 2s cubic-bezier(0, 0, 0.44, 1.18);
+}
+
+.card-product-grid .card-product-wrapper {
+    aspect-ratio: 1 / 1;
+}
+
+.card-product-grid .card-product-info .tf-btn {
+    justify-content: center;
+    border: 1px solid var(--line-2);
+    font-size: 12px;
+    line-height: 42px;
+    font-weight: 700;
+    background-color: var(--white);
+    padding: 0 10px;
+    border-radius: 999px;
+}
+.features_des_item{
+    font-size: 13px !important;
+    color: #666666 !important;
+    line-height: 18px !important;
+    margin-bottom: 5px !important;
+    list-style: disc !important;
+    margin-left: 20px;
+    text-align: left;
+}
+.badges span{
+    color: #666666;
+    margin-right: 5px;
+}
+.product-youtube-video{
+    margin-top: 0px !important;
+}
+
+nav.btf-sub-nav-desktop-tabs.persistent-header {
+    display: none !important;
+}
+
+.card-product .card-product-wrapper .on-sale-wrap .on-sale-item {
+    padding: 0 10px;
+    min-width: 46px;
+    font-size: 10px;
+    line-height: 22px;
+}
+
+.card-product .card-product-info .title {
+    font-size: 13px;
+}
+
+.tf-product-info-title h5{
+    font-size: 22px;
+    font-weight: 600;
+}
+.price-on-sale{
+    position: relative;
+}
+
+.tf-product-info-price {
+    margin-bottom: 10px !important;
+    margin-top: 37px;
+}
+
+.price-status {
+    position: absolute;
+    top: -25px;
+    right: -38px;
+}
+
+.tf-form-search .search-suggests-results {
+    box-shadow: none;
+}
+
+.variant-picker-item .color-btn.activetest {
+    border-color: var(--main) !important;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.1019607843);
+}
+
+.thumbs-slider {
+    height: 500px !important;
+}
+.tf-product-media-main .item img{
+    object-fit: contain;
+}
+
+.hover-img .img-style img {
+    max-height: 400px;
+    object-fit: unset;
+}
+
+.home-category-image{
+    height: 120px !important;
+    object-fit: cover !important;
+}
+
+.features_des {
+    max-height: 150px;           
+    overflow-y: scroll;          
+    padding-right: 8px;
+    box-sizing: border-box;
+    scrollbar-width: none;       
+    -ms-overflow-style: none;    
+}
+
+.features_des::-webkit-scrollbar {
+    width: 6px;
+    opacity: 0;                  
+    transition: opacity 0.3s ease;
+}
+
+.features_des:hover::-webkit-scrollbar {
+    opacity: 1;                 
+}
+
+.features_des::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+.features_des::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: background 0.2s ease;
+}
+
+.features_des:hover::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+@supports (scrollbar-width: thin) {
+    .features_des {
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+        transition: scrollbar-color 0.3s ease;
+    }
+    .features_des:hover {
+        scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+    }
+}
+
+@media (max-width: 576px) {
+    .collection-item-v4.style-2 .collection-image {
+        height: 188px !important;
+    }
+    .slider-gaming-accessories .hover-img .img-style img {
+        max-height: 150px !important;
+    }
+    .collection-item-v4.style-2 .collection-image {
+        height: 188px !important;
+    }
+    .slider-gaming-accessories > img {
+        height: 230px;
+    }
+    .flat-spacing-5 {
+        padding-bottom: 0;
+    }
+}

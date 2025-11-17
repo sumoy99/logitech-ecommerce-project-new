@@ -1,0 +1,121 @@
+
+@media all and (min-width: 576px){
+    
+}
+
+
+
+@media all and (max-width: 1199px){
+    /* Header */
+    .mega-list-main-wrap {
+        gap: 16px;
+    }
+    .mega-ads-wrap {
+        width: 220px;
+        flex: 0 0 220px;
+    }
+    /* titles */
+
+}
+@media all and (max-width: 991px){
+    /* Header */
+    .quick-view-banner-wrap {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    /* titles */
+    /* Edit Profile */
+    .offcanvas-lg.offcanvas-end.up-sidebar-offcanvas {
+        width: 300px;
+        border: none;
+    }
+    .up-sidebar-offcanvas .offcanvas-header{
+        padding: 20px 12px 0 12px;
+        position: relative;
+    }
+    .up-sidebar-offcanvas .btn-close:focus {
+        box-shadow: none;
+    }
+    .up-sidebar-offcanvas .btn-close {
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        position: absolute;
+        top: 20px;
+        right: 12px;
+        transition: .3s;
+    }
+    .up-sidebar-header {
+        padding: 0 32px 16px 8px;
+        margin-bottom: 0;
+    }
+    .up-sidebar-offcanvas .offcanvas-body{
+        padding: 0;
+    }
+    .up-sidebar-offcanvas .up-sidebar {
+        box-shadow: none;
+    }
+    
+}
+@media all and (max-width: 767px){
+    /* titles */
+    .al-title-24px {
+        font-size: 22px;
+    }
+    .in-title-24px{
+        font-size: 22px;
+    }
+
+}
+@media all and (max-width: 575px){
+    .g-30px{
+        --bs-gutter-x: inherit;
+    }
+    .gx-30px{
+        --bs-gutter-x: inherit;
+    }
+    /* Header */
+    .contact-info-line,
+    .select-info-line{
+        padding-right: 0px;
+    }
+    .contact-info-line::after,
+    .select-info-line::after{
+        display: none;
+    }
+    .header-user-dropdown-btn {
+        padding-right: 15px;
+    }
+    .header-user-dropdown-btn::after {
+        width: 24px;
+        background-size: 12px 12px;
+        background-position: calc(100% - 3px) 7px;
+    }
+    /* Footer */
+    .footer-signup-area {
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer-nav-area {
+        min-width: calc(50% - 20px);
+    }
+    /* titles */
+    .al-title-24px {
+        font-size: 20px;
+    }
+    .in-title-24px{
+        font-size: 20px;
+    }
+    .in-title-20px{
+        font-size: 18px;
+    }
+    /* Customer Support */
+    .customer-support-contact{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+}
+
+
+/* For check only */
