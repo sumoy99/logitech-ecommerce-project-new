@@ -33,6 +33,10 @@ use Carbon\Carbon;
 
 class CustomerController extends Controller
 {
+    public function test(){
+
+    }
+    
     public function customerDashboard()
     {
         return view('frontend.customer.customer_dashboard');
